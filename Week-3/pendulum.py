@@ -1,6 +1,6 @@
 def period(L, g):
-    from math import pi 
-    T = ""
+    import math
+    T = None
     L_input = isinstance(L, int)
     g_input = isinstance(g, int)
     print("L_input")
@@ -10,7 +10,10 @@ def period(L, g):
     elif g_input != True:
         print("Wrong input")
     else:
-        T = 2 * pi * (L/g)**(1/2)
+        T = 2 * math.pi * (int(L)/int(g))**(1/2)
         return T
-        
+
+
+    
+
     
