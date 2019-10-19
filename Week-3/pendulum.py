@@ -13,6 +13,8 @@ def period(L, g):
         T = 2 * math.pi * (int(L)/int(g))**(1/2)
         return T
 
+print(period(3, 9))
+
 
     
 
