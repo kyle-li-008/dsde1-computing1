@@ -13,9 +13,14 @@ def period(L, g):
         T = 2 * math.pi * (int(L)/int(g))**(1/2)
         return T
 
-print(period(3, 9))
-
-
-    
+# print(period(4, 9))
 
     
+#import my function as mf
+#python name.py 
+
+# def main():
+#     period()
+
+# if __name__ == '__main__':
+#     main()

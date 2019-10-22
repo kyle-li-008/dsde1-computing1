@@ -57,7 +57,7 @@ def is_even(a):
 # 'hohoho'
 def string_repeat(phrase, repeat):
     s = None
-    for a in repeat:
+    for a in range(repeat):
         s=s+phrase
 
     return s
