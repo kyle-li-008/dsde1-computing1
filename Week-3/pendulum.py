@@ -22,5 +22,9 @@ def period(L, g):
 # def main():
 #     period()
 
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    L_int = input()
+    g_int = input()
+    L = int(L_int)
+    g = int(g_int)
+    period(L, g)
