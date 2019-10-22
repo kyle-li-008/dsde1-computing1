@@ -1,5 +1,5 @@
+import math
 def period(L, g):
-    import math
     T = None
     L_input = isinstance(L, int)
     g_input = isinstance(g, int)
@@ -14,17 +14,20 @@ def period(L, g):
         return T
 
 # print(period(4, 9))
-
-    
 #import my function as mf
 #python name.py 
 
 # def main():
 #     period()
+def main():
+    ll=int(input('Length'))
+    gg=int(input('g'))
+    print(period(ll, gg))
 
 if __name__ == '__main__':
-    L_int = input()
-    g_int = input()
-    L = int(L_int)
-    g = int(g_int)
-    period(L, g)
+    main()
+    # L_int = input()
+    # g_int = input()
+    # L = int(L_int)
+    # g = int(g_int)
+    # period(L, g)
