@@ -56,10 +56,9 @@ def is_even(a):
 # e.g. string_repeat('ho', 3) returns
 # 'hohoho'
 def string_repeat(phrase, repeat):
-    s = None
+    s = ""
     for a in range(repeat):
         s=s+phrase
-
     return s
 
     # hint: you can add strings together 
